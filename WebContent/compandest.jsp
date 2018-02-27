@@ -1,0 +1,11 @@
+
+
+<%
+response.sendRedirect("company.html");
+
+%>
+
+
+
+
+
