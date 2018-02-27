@@ -1,0 +1,95 @@
+1. create database projectjava;
+2. Tables To be created-->
+
+command -> create table ......tablename.......;
+
++-----------------------+                           
+| Tables_in_projectjava |
++-----------------------+
+| addques               |
+| adminfo               |
+| companyinfo           |
+| studentinfo           |
+| userans1              |
++-----------------------+
+
+3. Description of tables;
+
+a-> addques.-->
+   
+
+         mysql> desc addques;
++----------+---------------+------+-----+---------+-------+
+| Field    | Type          | Null | Key | Default | Extra |
++----------+---------------+------+-----+---------+-------+
+| id       | int(11)       | NO   | PRI | NULL    |       |
+| question | varchar(1000) | YES  |     | NULL    |       |
+| answer   | varchar(500)  | YES  |     | NULL    |       |
+| inans1   | varchar(500)  | YES  |     | NULL    |       |
+| incans2  | varchar(500)  | YES  |     | NULL    |       |
+| incans3  | varchar(500)  | YES  |     | NULL    |       |
+| incans4  | varchar(500)  | YES  |     | NULL    |       |
+| topic    | varchar(20)   | YES  |     | NULL    |       |
++----------+---------------+------+-----+---------+-------+
+
+b-> adminfo.-->
+
+
+              mysql> desc adminfo;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| userid   | varchar(20) | NO   | PRI | NULL    |       |
+| password | varchar(20) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+
+
+c->companyinfo-->
+
+
+             mysql> desc companyinfo;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| comname  | varchar(30) | NO   | PRI | NULL    |       |
+| password | varchar(20) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+
+
+
+d->studentinfo-->
+
+               
+               mysql> desc studentinfo;
++-----------------+--------------+------+-----+---------+-------+
+| Field           | Type         | Null | Key | Default | Extra |
++-----------------+--------------+------+-----+---------+-------+
+| name            | varchar(30)  | YES  |     | NULL    |       |
+| email           | varchar(50)  | NO   | PRI | NULL    |       |
+| password        | varchar(20)  | YES  |     | NULL    |       |
+| gender          | varchar(20)  | YES  |     | NULL    |       |
+| city            | varchar(20)  | YES  |     | NULL    |       |
+| contact         | varchar(15)  | YES  |     | NULL    |       |
+| education       | varchar(30)  | YES  |     | NULL    |       |
+| exam            | varchar(20)  | YES  |     | NULL    |       |
+| passout         | varchar(30)  | YES  |     | NULL    |       |
+| secret_question | varchar(100) | YES  |     | NULL    |       |
+| ans             | varchar(100) | YES  |     | NULL    |       |
+| grade           | varchar(30)  | YES  |     | NULL    |       |
++-----------------+--------------+------+-----+---------+-------+
+
+
+
+e-> userans-->
+
+
+             mysql> desc userans1;
++---------+--------------+------+-----+---------+-------+
+| Field   | Type         | Null | Key | Default | Extra |
++---------+--------------+------+-----+---------+-------+
+| sno     | int(11)      | YES  |     | NULL    |       |
+| uans    | varchar(500) | YES  |     | NULL    |       |
+| email   | varchar(30)  | NO   |     | NULL    |       |
+| cans    | varchar(500) | YES  |     | NULL    |       |
+| subject | varchar(40)  | NO   |     | NULL    |       |
++---------+--------------+------+-----+---------+-------+

@@ -6,6 +6,10 @@ Requirment : Working knowledge of java .
 2 . create tables and database , i will be attaching a txt file that will contain all the structure 
 	of sql required to run the project.
 
+3. add question and answers to database before using the project. otherwise you will get NULLPOINTEREXCEPTION :)
+
+4. see File DATABASE Commands  
+
 		**Change project According to you requirment**
 
 		Developer : Sourabh Kumar , Email : kumarsourabh228@gmail.com. 
