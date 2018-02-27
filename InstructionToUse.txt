@@ -1,0 +1,11 @@
+
+Requirment : Working knowledge of java .
+
+1 . change port number according to your sql port no. i.e(mine is 3307 your may be 3306).
+
+2 . create tables and database , i will be attaching a txt file that will contain all the structure 
+	of sql required to run the project.
+
+		**Change project According to you requirment**
+
+		Developer : Sourabh Kumar , Email : kumarsourabh228@gmail.com. 
